@@ -1,0 +1,86 @@
+#lib{
+  position: static;
+  text-decoration: none;
+  color: white;
+  /* margin-left: -50px; */
+  text-align: left;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0px;
+  background-image: url("image.jpg");
+}
+nav {
+  /* position: sticky;
+  top: 0;
+  width: 100%; */
+  /* left: 0; */
+  /* background-color: black;
+  color: white; */
+  width: 100%;
+  height: 70px;
+  font-family: cursive;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  background: #f1c40f;
+  position: sticky;
+  top: 0;
+}
+.books-details {
+  color: black;
+  margin-top: 20px;
+  margin-left: 20%;
+  background-color: aliceblue;
+  width: 800px;
+  padding: 20px;
+}
+.registration-from {
+  color: black;
+  margin-top: 20px;
+  margin-left: 20%;
+  width: 800px;
+  background-color: aliceblue;
+  padding: 20px;
+}
+input[type="text"],
+input[type="date"],
+input[type="date"],
+input[type="number"],
+input[type="email"],
+input[type="password"] {
+  width: 90%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+input:hover {
+  border-color: blue;
+}
+input[type="submit"] {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: black;
+  color: white;
+}
+s {
+  scroll-behavior: smooth;
+}
+/* .topbar td:hover {
+  background-color: purple;
+} */
+a.a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  font-style:unset;
+}
+#a{
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  margin-left: 350%;
+}
